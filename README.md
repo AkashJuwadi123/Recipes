@@ -33,14 +33,21 @@ The next table contains an interesting aggregate which is the number of ingredie
 
 ## Assessment of Missingness
 
-Here's what a Markdown table looks like. Note that the code for this table was generated _automatically_ from a DataFrame, using
+The first thing to look at for the missingness is whether the data is NMAR. After looking the data I beleive that the ratings column in the dataset is not NMAR as there are over 2000 entries missing from it. This is beacuse the data is missing when it has no ratings and as such there may be a common correlation between the data and as such we can look it the other columns in greater depth to confirm whether the data is NMAR.
 
+The first graph is for the missingness of rating when compared with the minutes column and the graph shows the distribution of the data.
 
 <iframe src="assets/min_med.html" width=800 height=600 frameBorder=0></iframe>
 
+The next graph shows the distribution for the missingness of rating when compared with the minutes column and shows the TVDs after preforming the test. From the resulting graph and p-val we are able to conclude that the data is NMAR when comparing these two columns as the p-val is less than the signifance level and we can reject the null of the data being MAR.
+
 <iframe src="assets/dist_min.html" width=800 height=600 frameBorder=0></iframe>
 
+This graph is for the missingness of rating when compared with the protien column and the graph shows the distribution of the data.
+
 <iframe src="assets/protein.html" width=800 height=600 frameBorder=0></iframe>
+
+The next graph shows the distribution for the missingness of rating when compared with the minutes column and shows the TVDs after preforming the test. From the resulting graph and p-val we are able to conclude that the data is MAR when comparing these two columns as the p-val is greater than the signifance level and we can accept the null of the data being MAR.
 
 <iframe src="assets/file-name.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -50,9 +57,6 @@ Here's what a Markdown table looks like. Note that the code for this table was g
 ## Hypothesis Testing
 
 
-The next thing is we will preform a hypothesis test in order to determine whether the number of steps truly has an effect on the average rating of a recipe. This will be done in order to answer the main question of this analysis. Does the number of steps effect the average rating of the recipes?
-Our null hypothsis is that the number of steps does not effect the average rating of the recipe, while our alternate hypothesis is that the number steps does effect the average rating of the recipe. 
-The choice of test statistic will be the mean of the average ratings and the significance level will be .01.
+The next thing is we will preform a hypothesis test in order to determine whether the number of steps truly has an effect on the average rating of a recipe. This will be done in order to answer the main question of this analysis. Does the number of steps effect the average rating of the recipes?Our null hypothsis is that the number of steps does not effect the average rating of the recipe, while our alternate hypothesis is that the number steps does effect the average rating of the recipe. The choice of test statistic will be the mean of the average ratings and the significance level will be .01.After running the test we would get a p-val of approxiamately 0.85 which would be greater than our significance value of 0.1. As such we would fail to reject null hypothesis and instead keep it, which is that the number of steps in a recipe would not effect its average rating. These choices hypothesis and test statistic were chosen as they are able to provide a good approimation for the data and allow for an easy analysis to see if the number if steps truly affects the average ratings of the outcome.
 
-After running the test we would get a p-val of approxiamately 0.85 which would be greater than our significance value of 0.1. As such we would fail to reject null hypothesis and instead keep it, which is that the number of steps in a recipe would not effect its average rating. These choices hypothesis and test statistic were chosen as they are able to provide a good approimation for the data and allow for an easy analysis to see if the number if steps truly affects the average ratings of the outcome.
 ---
