@@ -2,8 +2,6 @@
 
 by Akash Juwadi (ajuwadi@ucsd.edu)
 
-***Note***: If you choose a repo name and title as uninspired as the ones here, I will be quite sad.
-
 ---
 
 ## Introduction
@@ -14,13 +12,13 @@ The goal of this project is to solve the main question of whether of not the num
 
 ## Cleaning and EDA
 
-<iframe src="clean.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/clean.html" width=800 height=800 frameBorder=0></iframe>
 
 <iframe src="assets/min.html" width=800 height=600 frameBorder=0></iframe>
 
 <iframe src="assets/time_step.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/agg.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/agg.html" width=800 height=800 frameBorder=0></iframe>
 
 
 ---
@@ -44,4 +42,9 @@ Here's what a Markdown table looks like. Note that the code for this table was g
 ## Hypothesis Testing
 
 
+The next thing is we will preform a hypothesis test in order to determine whether the number of steps truly has an effect on the average rating of a recipe. This will be done in order to answer the main question of this analysis. Does the number of steps effect the average rating of the recipes?
+Our null hypothsis is that the number of steps does not effect the average rating of the recipe, while our alternate hypothesis is that the number steps does effect the average rating of the recipe. 
+The choice of test statistic will be the mean of the average ratings and the significance level will be .01.
+
+After running the test we would get a p-val of approxiamately 0.85 which would be greater than our significance value of 0.1. As such we would fail to reject null hypothesis and instead keep it, which is that the number of steps in a recipe would not effect its average rating. These choices hypothesis and test statistic were chosen as they are able to provide a good approimation for the data and allow for an easy analysis to see if the number if steps truly affects the average ratings of the outcome.
 ---
