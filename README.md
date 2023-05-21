@@ -11,7 +11,7 @@ by Akash Juwadi (ajuwadi@ucsd.edu)
 The goal of this project is to solve the main question of whether of not the cooking time of each recipe effects the number of calories?
 In order to do this we will be using the recipes dataset which contains various different recipes and information about the different recipes.
 This question is interesting to look at as its shows whether recipes that take a long time to prepare have more colorties than their counterparts with a shorter time. As such knowing this this would allow for people to make better use of their time and allow them to make the proper plans. 
-The main columns from the dataset that I will be focusing on will be cooking time which is the length of time it takes to prepare a recipe, and number of calories which has the calories of each dish. 
+The main columns from the dataset that I will be focusing on will be cooking time which is the length of time it takes to prepare a recipe, the number of ingredients in the recipe, the number of steps, and number of calories which has the calories of each dish. 
 ---
 
 ## Cleaning and EDA
