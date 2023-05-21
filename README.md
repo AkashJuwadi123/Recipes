@@ -12,11 +12,19 @@ The goal of this project is to solve the main question of whether of not the num
 
 ## Cleaning and EDA
 
+The process of cleaning the data first started with getting the two separate datasets and merging them together into 1 dataframe. After megring them the next step was to replace all ratings of 0 with np.nan as 0 ment there were no ratings. After that the final steps of the data cleaning process was to split up the nutrition column into all of its separate parts and make those into new colunms.
+
 <iframe src="assets/clean.html" width=800 height=800 frameBorder=0></iframe>
+
+The next graph contains the  univariate analysis of the data as we look at the number of ingredients and how often they occur as they can be useful in comparing to the overall ratings. After looking at the graph we can see that most of the data is grouped around nine to ten steps with some major outliers.
 
 <iframe src="assets/min.html" width=800 height=600 frameBorder=0></iframe>
 
+The next graph contains the bivariate analysis of the data as we look at the number of steps and the number of minutes in a recipe and divide them in order to see how long each individual step in the recipe would take, allowing the chef to be be able to better plan their time for making each step of the recipe
+
 <iframe src="assets/time_step.html" width=800 height=600 frameBorder=0></iframe>
+
+The next table contains an interesting aggregate which is the number of ingredients and how that compares with the time, steps, and overall rating of each different recipe. 
 
 <iframe src="assets/agg.html" width=800 height=800 frameBorder=0></iframe>
 
