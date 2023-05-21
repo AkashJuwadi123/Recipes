@@ -9,7 +9,8 @@ by Akash Juwadi (ajuwadi@ucsd.edu)
 ## Introduction
 
 The goal of this project is to solve the main question of whether of not the cooking time of each recipe effects the number of calories?
-In order to do this we will be using the recipes dataset which contains various different values which contain 
+In order to do this we will be using the recipes dataset which contains various different recipes and information about the different recipes.
+ 
 
 ---
 
