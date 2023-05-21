@@ -1,6 +1,6 @@
-# My Project Title
+# Does cooking time effect the number of calories?
 
-by Suraj Rampure (rampure@ucsd.edu)
+by Akash Juwadi (ajuwadi@ucsd.edu)
 
 ***Note***: If you choose a repo name and title as uninspired as the ones here, I will be quite sad.
 
@@ -8,7 +8,8 @@ by Suraj Rampure (rampure@ucsd.edu)
 
 ## Introduction
 
-In this project, we studied the effectiveness of spice challenges in building team morale.
+The goal of this project is to solve the main question of whether of not the cooking time of each recipe effects the number of calories?
+In order to do this we will be using the recipes dataset which contains various different values which contain 
 
 ---
 
