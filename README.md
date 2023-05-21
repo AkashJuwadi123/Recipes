@@ -14,7 +14,14 @@ The goal of this project is to solve the main question of whether of not the num
 
 ## Cleaning and EDA
 
-<iframe src="assets/file-name.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="clean.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/min.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/time_step.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/agg.html" width=800 height=600 frameBorder=0></iframe>
+
 
 ---
 
@@ -22,16 +29,19 @@ The goal of this project is to solve the main question of whether of not the num
 
 Here's what a Markdown table looks like. Note that the code for this table was generated _automatically_ from a DataFrame, using
 
-```py
-print(counts[['Quarter', 'Count']].head().to_markdown(index=False))
-```
 
-| Quarter     |   Count |
-|:------------|--------:|
-| Fall 2020   |       3 |
-| Winter 2021 |       2 |
-| Spring 2021 |       6 |
-| Summer 2021 |       4 |
-| Fall 2021   |      55 |
+<iframe src="assets/min_med.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/dist_min.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/protein.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/file-name.html" width=800 height=600 frameBorder=0></iframe>
+
+
+---
+
+## Hypothesis Testing
+
 
 ---
